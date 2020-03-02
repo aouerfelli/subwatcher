@@ -7,6 +7,10 @@ object GradlePlugins {
     const val id = "com.android.application"
   }
 
+  object Wormhole {
+    const val dependency = "com.jakewharton.wormhole:wormhole-gradle:${Versions.wormhole}"
+  }
+
   object Ktlint {
     const val dependency = "org.jlleitschuh.gradle:ktlint-gradle:${Versions.ktlint}"
     const val id = "org.jlleitschuh.gradle.ktlint"

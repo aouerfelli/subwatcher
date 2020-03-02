@@ -1,6 +1,7 @@
 /* TODO: Blocked by https://github.com/gradle/gradle/issues/9270
 import io.github.aouerfelli.subwatcher.GradlePlugins
 */
+import com.jakewharton.wormhole.gradle.wormhole
 import io.github.aouerfelli.subwatcher.Dependencies
 import io.github.aouerfelli.subwatcher.Kotlin
 
@@ -12,7 +13,7 @@ plugins {
 }
 
 android {
-  compileSdkVersion(29)
+  compileSdkVersion(wormhole(29))
   defaultConfig {
     applicationId = "io.github.aouerfelli.subwatcher"
     minSdkVersion(21)

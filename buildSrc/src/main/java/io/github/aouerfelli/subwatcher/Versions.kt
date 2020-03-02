@@ -4,6 +4,7 @@ internal object Versions {
   const val kotlin = "1.3.61"
 
   const val androidGradlePlugin = "4.1.0-alpha01"
+  const val wormhole = "0.3.0"
   const val ktlint = "9.2.1"
   const val gradleVersions = "0.28.0"
 

@@ -12,6 +12,7 @@ buildscript {
 
   dependencies {
     classpath(io.github.aouerfelli.subwatcher.GradlePlugins.Android.dependency)
+    classpath(io.github.aouerfelli.subwatcher.GradlePlugins.Wormhole.dependency)
     classpath(
       kotlin(
         io.github.aouerfelli.subwatcher.Kotlin.gradlePlugin,
